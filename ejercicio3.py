@@ -2,8 +2,8 @@
 import random
 #Se declaran seis variables para almacenar las veces que cae cada cara 
 #También se pide el número de veces que sera lanzado el dado
-cara1 , cara2 ,cara3 ,cara4 ,cara5 ,cara6=0 ,0 ,0 ,0 ,0 ,0 
 lanzamiento=int(input("Dígite cuantas veces se va a lanzar el dado: "))
+cara1 , cara2 ,cara3 ,cara4 ,cara5 ,cara6=0 ,0 ,0 ,0 ,0 ,0 
 
 #Processing
 for i in range(lanzamiento):
@@ -22,9 +22,9 @@ for i in range(lanzamiento):
         cara6+=1
 
 #Output
-print(f"*"*cara1+" cara de lado 1" )
-print(f"*"*cara2+" cara de lado 2" )
-print(f"*"*cara3+" cara de lado 3" )
-print(f"*"*cara4+" cara de lado 4" )
-print(f"*"*cara5+" cara de lado 5" )
-print(f"*"*cara6+" cara de lado 6" )
+print("*"*cara1+" cara de lado 1" )
+print("*"*cara2+" cara de lado 2" )
+print("*"*cara3+" cara de lado 3" )
+print("*"*cara4+" cara de lado 4" )
+print("*"*cara5+" cara de lado 5" )
+print("*"*cara6+" cara de lado 6" )
