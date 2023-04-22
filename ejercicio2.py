@@ -6,7 +6,10 @@ mult_9=0
 
 #Processing
 for i in x:
-    if i%7==0:
+    if i%7==0 and i%9==0:
+        mult_7+=1
+        mult_9+=1
+    elif i%7==0:
         mult_7+=1
     elif i%9==0:
         mult_9+=1

@@ -5,7 +5,7 @@ fact=1
 
 #Processing
 for i in range(1,n+1):
-    fact=fact*i 
+    fact*=i 
 
 #Output
 print(f"El factorial de {n} es {fact}")
