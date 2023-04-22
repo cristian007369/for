@@ -1,8 +1,8 @@
 frase=input("Digite una frase: ") 
-As,a="aáAÁ",0
-Es,e="eéEÉ",0
-Is,i="iíIÍ",0
-Os,o="oóOÓ",0
+As,a="aáäAÁÄ",0
+Es,e="eéëEÉË",0
+Is,i="iíïIÍÏ",0
+Os,o="oóöOÓÖ",0
 Us,u="uúüUÚÜ",0
 for w in frase:
     if w in As:
