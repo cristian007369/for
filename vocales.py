@@ -1,9 +1,10 @@
 frase=input("Digite una frase: ") 
-As,a="aáäAÁÄ",0
-Es,e="eéëEÉË",0
-Is,i="iíïIÍÏ",0
-Os,o="oóöOÓÖ",0
-Us,u="uúüUÚÜ",0
+frase=frase.lower()
+As,a="aáä",0
+Es,e="eéë",0
+Is,i="iíï",0
+Os,o="oóö",0
+Us,u="uúü",0
 for w in frase:
     if w in As:
         a+=1
