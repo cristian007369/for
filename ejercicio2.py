@@ -1,6 +1,6 @@
 # ejercicio 2_Mostrar e inprimir cuantos multiplos de 7 y cuantos multiplos de 9 hay entre mil y 5000
 #Se declaran tres variables para definir el rango y almacenar los multiplos de 7 y 9
-x=range(1000,5000)
+x=range(1000,5001)
 mult_7=0
 mult_9=0
 
